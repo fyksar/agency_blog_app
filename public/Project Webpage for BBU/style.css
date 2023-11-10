@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Moul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+body{
+    /* background-image: url(Image/bgbbunew.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: scroll; */
+    /* min-height:100vh; */
+    background-color: #f1eeee;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: auto;
+    height: 80px;
+    background-image: url(Image/backgroundcovernew.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 30px;
+    border-bottom: 5px solid #01144f;
+}
+.logo img{
+    width: auto;
+    height: 80px;
+}
+.title{
+    position: absolute;
+    margin-left: 70px;
+
+
+}
+.title-h1{
+    color:#002188;
+    font-size: 22px;
+    font-family: 'Moul', cursive;
+    margin-bottom: 1px;
+    text-shadow: 20px white
+
+}
+.title-h2{
+    color: rgb(2, 181, 11);
+    margin-top: 1px;
+    text-transform: uppercase;
+
+}
+
+
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 14px 16px;
+    color:white;
+    padding: 10px 20px;
+    background-color: #002188;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.navbar ul li a:hover{
+    text-decoration: none;
+    padding: 14px 16px;
+    color:white;
+    padding: 10px 20px;
+    background-color:rgb(0, 191, 255);
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* BBU big */
+.biglabel{
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    margin-top: 20px;
+    left: 2%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-image: url(background/logo\ with\ bg.png);
+    background-size: 700px 500px;
+    border-radius: 10px;
+    text-align: center;
+}
+.biglabel h3{
+    font-size: 40px;
+    text-align: center;
+    color: #002188;
+    margin-top: 30px;
+    font-family: 'Moul', cursive;
+    animation: animate-biglabel 0.5s linear infinite;
+}
+.biglabel h1{
+    font-size: 70px;
+    text-align: center;
+    color: #002188;
+    margin-bottom: 250px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    animation: animate-biglabel 0.5s linear infinite;
+}
+@keyframes animate-biglabel
+    {
+        0%, 100%{
+            text-shadow: -1.5px -1.5px 0 #0ff, 1.5px 1.5px 0 #fff;
+        }
+        25%{
+            text-shadow: 1.5px 1.5px 0 #0ff, -1.5px -1.5px 0 #ff0;
+        }
+        50%{
+            text-shadow: 1.5px -1.5px 0 #0ff, -1.5px 1.5px 0 #ff0;
+        }
+        75%{
+            text-shadow: -1.5px -1.5px 0 #0ff, -1.5px -1.5px 0 #ff0;
+        }
+    }
+.biglabel a{
+    padding: 10px;
+    background-color: #002188;
+    border-radius: 5px;
+    text-decoration: none;
+    color:white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.biglabel a:hover{
+    background-color:aqua;
+}
+/* END */
+/* Footer */
+footer{
+    position: sticky;
+    top: 100%;
+    background-color:#002188;
+}
+.footer-container{
+    width: 100%;
+    padding: 20px 0px 20px;
+}
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.footer-nav ul li a{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.footer-nav a:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.footer-bottom{
+    background-color: #01144f;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+}
+.footer-bottom a{
+    color: white;
+}
+/* END */
+
+/* About-Navbar*/
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-about{
+    text-align: center;
+    color:#002188;
+    font-size: 24px;
+    margin-top: 20px;
+    font-family: 'Moul', cursive;
+    margin-bottom: 0px;
+}
+/* ///////////////////////////////////// */
+.box1{
+    background-image: url(Image/ITpc.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 20px 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #002188;
+    padding: 10px 50px;
+    text-align: center;
+}
+/* ///////////////////////////////////// */
+.box2{
+    background-image: url(Image/Kasekam.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 20px 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #002188;
+    padding: 10px 50px;
+    text-align: center;
+}
+/* ///////////////////////////////////// */
+.box3{
+    background-image: url(Image/Peasa.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 20px 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #002188;
+    padding: 10px 50px;
+    text-align: center;
+}
+/* ///////////////////////////////////// */
+.box4{
+    background-image: url(Image/Sthakech.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 20px 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #002188;
+    padding: 10px 50px;
+    text-align: center;
+}
+/* ///////////////////////////////////// */
+.box5{
+    background-image: url(Image/Nitesas.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 20px 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #002188;
+    padding: 10px 50px;
+    text-align: center;
+}
+/* ///////////////////////////////////// */
+.box6{
+    background-image: url(Image/Sthabatyeakam.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 20px 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #002188;
+    padding: 10px 50px;
+    text-align: center;
+}
+/* ///////////////////////////////////// */
+.box7{
+    background-image: url(Image/Krobkrong.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 20px 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #002188;
+    padding: 10px 50px;
+    text-align: center;
+}
+/* ///////////////////////////////////// */
+.box label{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #002188;
+    border-radius: 5px;
+    background-color: rgb(214, 214, 214);
+
+}
+.box a{
+    position: relative;
+    top: 75%;
+    color: white;
+    padding: 4px 10px;
+    background-color:#002188;
+    border-radius: 5px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+.box a:hover{
+    padding: 2px 10px;
+    background-color:rgb(0, 191, 255);
+    cursor: pointer;
+}
+/* slider image */
+.slider{
+    position: absolute;
+    right: 2%;
+    width:700px;
+    height:500px;
+    background-image: url(Slider/slide\ background.jpeg);
+    background-size: cover;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper{
+    width: 80%;
+    height: fit-content;
+    border-radius: 10px;
+}
+.swiper-slide img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* end */
+
+/* google map */
+.map{
+    position: absolute;
+    left: 2%;
+    width:500px;
+    height:300px;
+    background: blue;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.titlemap label{
+    position: absolute;
+    font-size: 20px;
+    color: #002188;
+    font-family: 'Moul', cursive;
+    margin-top: 10px;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+/* END */
+
+/* address */
+.address-container{
+    position: absolute;
+    right: 2%;
+    width:700px;
+    height:300px;
+    background-image: url(background/blue\ gold\ border\ 2side.jpg);
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.address-container img{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    border-left: 2px solid #002188;
+    border-top: 2px solid #002188;
+    border-bottom: 2px solid #002188;
+}
+.address-container h3{
+    position: absolute;
+    margin-top: 20px;
+    left: 60%;
+    font-size: 20px;
+    color: white;
+}
+.detail{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    font-size: 14px;
+    color: white;
+}
+.detail p{
+    margin-top: 10px;
+}
+.underline{
+    position: absolute;
+    border: 2px solid;
+    border-color: white;
+    width: 200px;
+    top: 20%;
+    left: 60%;
+}
+    /* End */
+
+    /* Qr COde  */
+.qr-code{
+    position: absolute;
+    width: 200px;
+    height: 240px;
+    margin-top: 30px;
+    left: 37%;
+    border-radius: 10px;
+
+}
+.qr-code img{
+    width: 100%;
+    height: 100%;
+}
+    /* END */
+/* Campus Wraper in ទំនាក់ទំនង */
+.wrapper-campus{
+    position: absolute;
+    margin-top: 25%;
+    left: 2%;
+    max-width: 96.3% ;
+    max-height: 300px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.wrapper-campus .address-campus{
+    min-width: 400px;
+    height: 170px;
+    background-image: url(background/blue\ gold\ border\ 1side.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.address-campus img{
+    position: absolute;
+    width: 250px;
+    height: 170px;
+    border-radius: 10px;
+}
+.address-campus h3{
+    position: relative;
+    top: 10%;
+    margin-left: 65%;
+    font-size: 12px;
+    color: white;
+}
+.address-campus .campus-detail{
+    position: relative;
+    margin-left: 65%;
+    top: 25%;
+    font-size: 9px;
+    color: white;
+}
+.campus-detail p{
+    margin-top: 5px;
+}
+.address-campus .campus-underline{
+    position: relative;
+    border: 1px solid;
+    border-color: white;
+    width: 100px;
+    top: 20%;
+    margin-left: 65%;
+}
+
+/* Box News in ព័ត៌មាន */
+.container-boxnews{
+    display:block;
+    max-height: 84.5vh;
+    width: 1000px;
+    overflow-x: hidden;
+    background-color:transparent;
+
+}
+.container-boxnews::-webkit-scrollbar{
+    width:0px ;
+}
+
+.box-item{
+    display: flex;
+    width: 950px;
+    height: 350px;
+    border-radius: 5px;
+    margin: 20px 30px;
+    background:linear-gradient(to right, #002188 ,white) ;
+    box-shadow: 5px 5px 5px #0e38b9;
+
+}
+.box-item img{
+    position: relative;
+    width: 500px;
+    height: 350px;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+}
+.detail-boxnews{
+    position: relative;
+    top: 0%;
+    left: 30px;
+}
+.detail-boxnews a{
+    position: relative;
+    text-decoration: none;
+    color:#002188;
+    font-size: 18px;
+    top: 30px;
+    font-family: 'Moul', cursive;
+}
+
+.detail-boxnews p{
+    position: relative;
+    color:#002188;
+    font-size: 15px;
+    top: 50px;
+    margin-bottom: 15px;
+}
+
+.platform-news{
+    position: absolute;
+    margin-top: 20px;
+    top:15% ;
+    right:2%;
+    width: 500px;
+    height: 600px;
+    background-color:transparent;
+}
+.plat-big{
+    width: 500px;
+    height: 350px;
+    background-image: url(Image/Songkran\ bbu1.png);
+}
+
+.plat-small{
+    margin-top: 20px;
+    width: 500px;
+    height: 230px;
+    background-color: rgb(54, 47, 47);
+    display: flex;
+    justify-content: center;
+}
+.plat-box1{
+    width: 240px;
+    height: 230px;
+    background-image: url(Image/bbusongkran1.jpg);
+    background-size: cover;
+    margin-right: 20px;
+}
+.plat-box2{
+    width: 240px;
+    height: 230px;
+    background-image: url(Image/box1111.png);
+    background-color: rgb(0, 255, 110);
+}
+
+
+.plot1{
+    width: 100%;
+    height: 75vh;
+
+}
+.plot2{
+    width: 100%;
+    height: 80vh;
+}
+.plot3{
+
+    width: 100%;
+    height: 85vh;
+    border-bottom: 2px solid black;
+}
+
+.plot4{
+    width: 100%;
+    height: 500px;
+    background-color: #ff0;
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+}
+
+
